@@ -4,7 +4,7 @@ from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.metrics.pairwise import cosine_similarity
 
 # Load the data
-df = pd.read_csv('/Users/aribina/Documents/Projects/Project 5/clean_perfume_data.csv')
+df = pd.read_csv('clean_perfume_data.csv')
 
 # Vectorize the notes column
 vectorizer = TfidfVectorizer()
